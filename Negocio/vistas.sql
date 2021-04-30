@@ -67,7 +67,7 @@ GROUP BY TIPO_COMPROBANTE
 ORDER BY N_VENTAS DESC;
 
 --
-
+-- VISTA 7
 --Total de ventas, promedio de ventas, cantidad de ventas
 create view negocio.v_ventas_localidad as
 select departamento, provincia, distrito, sum(total) total_ventas_soles, avg(total) promedio_ventas_soles, count(total) cantidad_ventas
@@ -76,7 +76,8 @@ NEGOCIO.F_VENTAS_DESC
 group by distrito, departamento, provincia;
 
 
-
+--
+-- VISTA 8
 --Muestra a los clientes por categoria
 create view negocio.v_clientes_categoria as
 SELECT NOMBRE_C,APELLIDO_C, NRO_VENTAS,
