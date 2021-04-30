@@ -1,0 +1,12 @@
+{
+  "namespace": "VENTAS",
+  "name": "D_FECHA_AVRO",
+  "type": "record",
+  "fields": [
+    {"name": "ID_FECHA", "type": ["string", "null"]},
+	{"name": "ID_ANO", "type": ["string", "null"]},
+	{"name": "ID_MES", "type": ["string", "null"]},
+	{"name": "ID_DIA", "type": ["string", "null"]},
+	{"name": "ID_HORA", "type": ["string", "null"]}
+  ]
+}

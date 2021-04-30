@@ -1,0 +1,9 @@
+{
+  "namespace": "VENTAS",
+  "name": "D_MES_AVRO",
+  "type": "record",
+  "fields": [
+    {"name": "ID_MES", "type": ["string", "null"]},
+	{"name": "MES", "type": ["string", "null"]}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "VENTAS",
+  "name": "F_VENTAS_AVRO",
+  "type": "record",
+  "fields": [
+    {"name": "ID_BOLETA", "type": ["string", "null"]},
+    {"name": "ID_CLIENTE", "type": ["string", "null"]},
+    {"name": "ID_CAJA", "type": ["string", "null"]},
+    {"name": "NRO_TRANSACCION", "type": ["string", "null"]},
+    {"name": "TIPO_MONEDA", "type": ["string", "null"]},
+    {"name": "TIPO_COMPROBANTE", "type": ["string", "null"]},
+    {"name": "ID_VENDEDOR", "type": ["string", "null"]},
+	{"name": "NRO_SERIE", "type": ["string", "null"]},
+	{"name": "ID_PRODUCTO", "type": ["string", "null"]},
+	{"name": "ID_FECHA", "type": ["string", "null"]},
+	{"name": "PRECIO_VENTA", "type": ["string", "null"]},
+	{"name": "CANTIDAD", "type": ["string", "null"]},
+	{"name": "MODALIDAD_COMPRA", "type": ["string", "null"]},
+	{"name": "TOTAL", "type": ["string", "null"]}
+  ]
+}

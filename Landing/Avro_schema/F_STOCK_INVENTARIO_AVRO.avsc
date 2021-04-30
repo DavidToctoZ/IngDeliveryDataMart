@@ -1,0 +1,13 @@
+{
+  "namespace": "VENTAS",
+  "name": "F_STOCK_INVENTARIO_AVRO",
+  "type": "record",
+  "fields": [
+	{"name": "ID_STOCK_INVENTARIO", "type": ["string", "null"]},
+	{"name": "ID_PRODUCTO", "type": ["string", "null"]},
+	{"name": "LOTE", "type": ["string", "null"]},
+	{"name": "FECHA_VENCIMIENTO", "type": ["string", "null"]},
+	{"name": "STOCK_MINIMO", "type": ["string", "null"]},
+    {"name": "TOTAL", "type": ["string", "null"]}
+  ]
+}

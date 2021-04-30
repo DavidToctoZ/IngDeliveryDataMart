@@ -1,0 +1,11 @@
+{
+  "namespace": "VENTAS",
+  "name": "D_VENDEDOR_AVRO",
+  "type": "record",
+  "fields": [
+    {"name": "ID_VENDEDOR", "type": ["string", "null"]},
+	{"name": "NOMBRE", "type": ["string", "null"]},
+	{"name": "APELLIDO_PATERNO", "type": ["string", "null"]},
+	{"name": "APELLIDO_MATERNO", "type": ["string", "null"]}
+  ]
+}

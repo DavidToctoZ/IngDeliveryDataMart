@@ -1,0 +1,12 @@
+{
+  "namespace": "VENTAS",
+  "name": "D_PRODUCTO_AVRO",
+  "type": "record",
+  "fields": [
+    {"name": "ID_PRODUCTO", "type": ["string", "null"]},
+	{"name": "NOMBRE_PRODUCTO", "type": ["string", "null"]},
+	{"name": "ID_CATEGORIA", "type": ["string", "null"]},
+	{"name": "ID_MARCA", "type": ["string", "null"]},
+	{"name": "PRECIO", "type": ["string", "null"]}
+  ]
+}

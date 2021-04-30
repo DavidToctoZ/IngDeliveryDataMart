@@ -1,0 +1,9 @@
+{
+  "namespace": "VENTAS",
+  "name": "D_FECHA_AVRO",
+  "type": "record",
+  "fields": [
+    {"name": "ID_ANO", "type": ["string", "null"]},
+	{"name": "ANO", "type": ["string", "null"]}
+  ]
+}
