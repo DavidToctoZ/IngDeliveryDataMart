@@ -1,2 +1,0 @@
-# IngDeliveryDataMart
-Rutas
