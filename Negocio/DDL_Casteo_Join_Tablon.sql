@@ -6,6 +6,10 @@
 -----------------------
 --TABLON F_VENTAS_DESC
 -----------------------
+select nombre_producto, cantidad from 
+NEGOCIO.F_VENTAS_DESC
+where nombre_producto = 'Camote'
+order by cantidad;
 
 CREATE EXTERNAL TABLE NEGOCIO.F_VENTAS_DESC(
 ID_BOLETA STRING COMMENT 'Numero de Comprobante autogenerado - Control Interno',
